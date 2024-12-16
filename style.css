@@ -1,0 +1,31 @@
+.img-container {
+    max-width: 500px;
+    margin: 10px;
+  }
+  .img-fluid {
+    width: 100%;
+    height: auto;
+  }
+  .post-info {
+    position: relative;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background: #f9f9f9;
+    margin-bottom: 20px;
+  }
+  .post-info .date {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 0.9em;
+    color: #888;
+  }
+  .post-info h5 {
+    margin: 0 0 10px;
+  }
+  .post-info p {
+    margin: 5px 0;
+    color: #555;
+  }
+  
