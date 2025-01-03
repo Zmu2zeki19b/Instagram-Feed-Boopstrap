@@ -294,11 +294,9 @@ horizontalView.addEventListener('click', () => {
   gallery.classList.remove('row-cols-1');
   gallery.classList.add('row-cols-3');
 
-  // Ocultar los iconos en vista horizontal
   const postActions = document.querySelectorAll('.post-actions');
   postActions.forEach(action => action.style.display = 'none');
 
-  // Ocultar las descripciones y títulos en vista horizontal
   const postInfo = document.querySelectorAll('.post-info');
   postInfo.forEach(info => info.style.display = 'none');
 });
@@ -307,11 +305,9 @@ verticalView.addEventListener('click', () => {
   gallery.classList.remove('row-cols-3');
   gallery.classList.add('row-cols-1');
 
-  // Mostrar los iconos en vista vertical
   const postActions = document.querySelectorAll('.post-actions');
   postActions.forEach(action => action.style.display = 'block');
 
-  // Mostrar las descripciones y títulos en vista vertical
   const postInfo = document.querySelectorAll('.post-info');
   postInfo.forEach(info => info.style.display = 'block');
 });
